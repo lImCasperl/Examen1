@@ -1,0 +1,128 @@
+\hypertarget{3num_mayor_01_mejorado_8cpp}{}\doxysection{Referencia del Archivo 3num\+Mayor Mejorado.\+cpp}
+\label{3num_mayor_01_mejorado_8cpp}\index{3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_ab7dbed78269f804535b7dc7674145d26}{ingresar\+Datos}} ()
+\begin{DoxyCompactList}\small\item\em ingresar\+Datos Solicita los números que se quieren comparar \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_ab8d908192434a5441365bcded7e984e2}{comparar}} ()
+\begin{DoxyCompactList}\small\item\em imprimir\+Resultados Es el encargado de mostrar los resultados \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em main Ejecutor principal \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_acf4b6cea27655a9d2012c09c64d6ca9e}{n1}}
+\begin{DoxyCompactList}\small\item\em Número 1 a ingresar. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_aa5d111dfc5a6d5317ca02bed02649f46}{n2}}
+\begin{DoxyCompactList}\small\item\em Número 2 a ingresar. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_aeb30d83ca1f02849b55625bb3756843d}{n3}}
+\begin{DoxyCompactList}\small\item\em Número 3 a ingresar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{3num_mayor_01_mejorado_8cpp_ab8d908192434a5441365bcded7e984e2}\label{3num_mayor_01_mejorado_8cpp_ab8d908192434a5441365bcded7e984e2}} 
+\index{3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}!comparar@{comparar}}
+\index{comparar@{comparar}!3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{comparar()}{comparar()}}
+{\footnotesize\ttfamily void comparar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+imprimir\+Resultados Es el encargado de mostrar los resultados 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em mayor} & Número Mayor \\
+\hline
+{\em menor} & Número Menor 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{3num_mayor_8cpp_af7e8414645fa09fc1759dd3a4adbf314}{imprimirResultados}}(\textcolor{keywordtype}{int}\ mayor,\ \textcolor{keywordtype}{int}\ menor)\ \{}
+\DoxyCodeLine{\ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}El\ número\ mayor\ es:\ "{}}<<mayor<<\textcolor{stringliteral}{"{}\ y\ el\ menor\ es:\ "{}}<<menor<<endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ }
+\DoxyCodeLine{\ \ /}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{3num_mayor_8cpp_af7e8414645fa09fc1759dd3a4adbf314}{imprimirResultados}}(\textcolor{keywordtype}{int}\ mayor,\ \textcolor{keywordtype}{int}\ menor)\ \{}
+\DoxyCodeLine{\ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}El\ número\ mayor\ es:\ "{}}<<mayor<<\textcolor{stringliteral}{"{}\ y\ el\ menor\ es:\ "{}}<<menor<<endl;}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{3num_mayor_01_mejorado_8cpp_ab7dbed78269f804535b7dc7674145d26}\label{3num_mayor_01_mejorado_8cpp_ab7dbed78269f804535b7dc7674145d26}} 
+\index{3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}!ingresarDatos@{ingresarDatos}}
+\index{ingresarDatos@{ingresarDatos}!3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{ingresarDatos()}{ingresarDatos()}}
+{\footnotesize\ttfamily void ingresar\+Datos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+ingresar\+Datos Solicita los números que se quieren comparar 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_ab7dbed78269f804535b7dc7674145d26}{ingresarDatos}}()\ \{}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ numéro\ 1"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_acf4b6cea27655a9d2012c09c64d6ca9e}{n1}};}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ numéro\ 2"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_aa5d111dfc5a6d5317ca02bed02649f46}{n2}};}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ numéro\ 3"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_aeb30d83ca1f02849b55625bb3756843d}{n3}};}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \mbox{\Hypertarget{3num_mayor_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{3num_mayor_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}!main@{main}}
+\index{main@{main}!3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+main Ejecutor principal 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ \mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\ \{}
+\DoxyCodeLine{\mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_ab7dbed78269f804535b7dc7674145d26}{ingresarDatos}}();}
+\DoxyCodeLine{\mbox{\hyperlink{3num_mayor_01_mejorado_8cpp_ab8d908192434a5441365bcded7e984e2}{comparar}}();}
+\DoxyCodeLine{\textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
+
+\doxysubsection{Documentación de las variables}
+\mbox{\Hypertarget{3num_mayor_01_mejorado_8cpp_acf4b6cea27655a9d2012c09c64d6ca9e}\label{3num_mayor_01_mejorado_8cpp_acf4b6cea27655a9d2012c09c64d6ca9e}} 
+\index{3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}!n1@{n1}}
+\index{n1@{n1}!3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{n1}{n1}}
+{\footnotesize\ttfamily int n1}
+
+
+
+Número 1 a ingresar. 
+
+\mbox{\Hypertarget{3num_mayor_01_mejorado_8cpp_aa5d111dfc5a6d5317ca02bed02649f46}\label{3num_mayor_01_mejorado_8cpp_aa5d111dfc5a6d5317ca02bed02649f46}} 
+\index{3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}!n2@{n2}}
+\index{n2@{n2}!3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{n2}{n2}}
+{\footnotesize\ttfamily int n2}
+
+
+
+Número 2 a ingresar. 
+
+\mbox{\Hypertarget{3num_mayor_01_mejorado_8cpp_aeb30d83ca1f02849b55625bb3756843d}\label{3num_mayor_01_mejorado_8cpp_aeb30d83ca1f02849b55625bb3756843d}} 
+\index{3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}!n3@{n3}}
+\index{n3@{n3}!3numMayor Mejorado.cpp@{3numMayor Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{n3}{n3}}
+{\footnotesize\ttfamily int n3}
+
+
+
+Número 3 a ingresar. 
+
