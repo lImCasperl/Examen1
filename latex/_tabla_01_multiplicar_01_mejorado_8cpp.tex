@@ -1,0 +1,90 @@
+\hypertarget{_tabla_01_multiplicar_01_mejorado_8cpp}{}\doxysection{Referencia del Archivo Tabla Multiplicar Mejorado.\+cpp}
+\label{_tabla_01_multiplicar_01_mejorado_8cpp}\index{Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_acee12c1752149ec4bc2876ab12368d97}{multiplo}} ()
+\begin{DoxyCompactList}\small\item\em multiplo Realiza las multiplicaciones e imprime resultados \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_af810a2a196da125618446556e8150b52}{ingresar}} ()
+\begin{DoxyCompactList}\small\item\em ingresar Solicita el número para sacar tablas \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em main Ejecutor principal \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}{num}}
+\begin{DoxyCompactList}\small\item\em Número del cual se sacará la tabla. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{_tabla_01_multiplicar_01_mejorado_8cpp_af810a2a196da125618446556e8150b52}\label{_tabla_01_multiplicar_01_mejorado_8cpp_af810a2a196da125618446556e8150b52}} 
+\index{Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}!ingresar@{ingresar}}
+\index{ingresar@{ingresar}!Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{ingresar()}{ingresar()}}
+{\footnotesize\ttfamily void ingresar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+ingresar Solicita el número para sacar tablas 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_af810a2a196da125618446556e8150b52}{ingresar}}()\ \{}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Número\ para\ tabla\ de\ multiplicar:\ "{}};}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}{num}};}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \mbox{\Hypertarget{_tabla_01_multiplicar_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_tabla_01_multiplicar_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}!main@{main}}
+\index{main@{main}!Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+main Ejecutor principal 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\ \{}
+\DoxyCodeLine{\mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_af810a2a196da125618446556e8150b52}{ingresar}}();}
+\DoxyCodeLine{\mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_acee12c1752149ec4bc2876ab12368d97}{multiplo}}();}
+\DoxyCodeLine{\textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \mbox{\Hypertarget{_tabla_01_multiplicar_01_mejorado_8cpp_acee12c1752149ec4bc2876ab12368d97}\label{_tabla_01_multiplicar_01_mejorado_8cpp_acee12c1752149ec4bc2876ab12368d97}} 
+\index{Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}!multiplo@{multiplo}}
+\index{multiplo@{multiplo}!Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{multiplo()}{multiplo()}}
+{\footnotesize\ttfamily void multiplo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+multiplo Realiza las multiplicaciones e imprime resultados 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_acee12c1752149ec4bc2876ab12368d97}{multiplo}}()\ \{}
+\DoxyCodeLine{\textcolor{keywordflow}{for}(\textcolor{keywordtype}{int}\ i=1;\ i<11;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \textcolor{keywordtype}{int}\ resultado=\ i*\mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}{num}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ cout<<\mbox{\hyperlink{_tabla_01_multiplicar_01_mejorado_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}{num}}<<\textcolor{stringliteral}{"{}\ x\ "{}}<<\ i\ <<\textcolor{stringliteral}{"{}\ =\ "{}}<<resultado<<endl;}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
+
+\doxysubsection{Documentación de las variables}
+\mbox{\Hypertarget{_tabla_01_multiplicar_01_mejorado_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}\label{_tabla_01_multiplicar_01_mejorado_8cpp_a86cf672daa4e0ad11ad10efc894d19c8}} 
+\index{Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}!num@{num}}
+\index{num@{num}!Tabla Multiplicar Mejorado.cpp@{Tabla Multiplicar Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{num}{num}}
+{\footnotesize\ttfamily int num}
+
+
+
+Número del cual se sacará la tabla. 
+
