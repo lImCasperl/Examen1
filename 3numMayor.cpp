@@ -1,37 +1,46 @@
 #include <iostream>
 using namespace std;
+int n1;
+int n2;
+int n3;
 
-int main() {
-	int n1;
-	int n2;
-	int n3;
-
+void ingresarDatos() {
 	cout << "Ingresa numéro 1"<<endl;
 	cin >> n1;
 	cout << "Ingresa numéro 2"<<endl;
 	cin >> n2;
 	cout << "Ingresa numéro 3"<<endl;
 	cin >> n3;
+}
 
+void imprimirResultados(int mayor, int menor) {
+	cout << "El número mayor es: "<<mayor<<" y el menor es: "<<menor<<endl;
+}
+
+void comparar() {
 	if (n1>n2 && n1>n3) {
-		cout << "El número mayor es: " << n1 <<endl;
 		if (n2<n3) {
-			cout << "El número menor es: " << n2 <<endl;
+			imprimirResultados(n1,n2);
 		}else {
-		cout << "El número menor es: " << n3 <<endl;
+			imprimirResultados(n1,n3);
 		}
 	}else if (n2>n1 && n2>n3) {
-		cout << "El número mayor es: " << n2 <<endl;
 		if (n1<n3) {
-			cout << "El número menor es: " << n1 <<endl;
+			imprimirResultados(n2,n1);
+		}else {
+			imprimirResultados(n2,n3);
 		}
-			cout << "El número menor es: " << n3 <<endl;
 	}else if (n3>n1 && n3>n2) {
-		cout << "El número mayor es: " << n3 <<endl;
-		if (n3<n1) {
-			cout << "El número menor es: " << n3 <<endl;
+		if (n1<n2) {
+			imprimirResultados(n3,n1);
+		}else {
+			imprimirResultados(n3,n2);
 		}
-			cout << "El número menor es: " << n1 <<endl;
 	}
+}
+
+int main() {
+	ingresarDatos();
+	comparar();
 	return 0;
 }
