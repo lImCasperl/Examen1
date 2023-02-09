@@ -1,0 +1,227 @@
+\hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp}{}\doxysection{Referencia del Archivo Fecha Nacimiento Mejorado.\+cpp}
+\label{_fecha_01_nacimiento_01_mejorado_8cpp}\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abe6ed97b0594d2287da0d5c7c7cae436}{fecha\+Actual}} ()
+\begin{DoxyCompactList}\small\item\em fecha\+Actual Se utiliza para ingresar la fecha actual (día, mes, año) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a2011cb1205400b157966c5bb9ec4f7c9}{fecha\+Nacimiento}} ()
+\begin{DoxyCompactList}\small\item\em fecha\+Nacimiento Se utiliza para ingresar la fecha de nacimiento (día, mes, año) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abc2bfbab3880b8e59f2e56e9a963fc9e}{calculo\+Edad}} ()
+\begin{DoxyCompactList}\small\item\em calculo\+Edad Realiza el calculo de la edad, dependiendo si la fecha de nacimiento es mayor a la actual ó no \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abc8e18b2721758ff088793ed0e28d0f9}{resultados}} ()
+\begin{DoxyCompactList}\small\item\em resultados Imprime resultados obtenidos \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em main Ejectuta los métodos realizados en órden \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}{diact}}
+\begin{DoxyCompactList}\small\item\em Indica día de fecha actual. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}
+\begin{DoxyCompactList}\small\item\em Indica mes de fecha actual. \end{DoxyCompactList}\item 
+int anioact int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}{dianac}}
+\begin{DoxyCompactList}\small\item\em Indica año de fecha actual. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_aacd6444ed3e1526f77a8978a7f0f8b58}{mesnac}}
+\begin{DoxyCompactList}\small\item\em Indica mes de nacimiento. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a59de18af0c7a2c69a9dd25d32d43370d}{anionac}}
+\begin{DoxyCompactList}\small\item\em Indica año de nacimiento. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ad7677d10f43454ace894e2ee4d8090fc}{dias}}
+\begin{DoxyCompactList}\small\item\em Indica dias que lleva vivo el usuario. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a28bd332984c3dfe13a07ccee0c47eb8c}{meses}}
+\begin{DoxyCompactList}\small\item\em Indica meses que lleva vivo el usuario. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_abc2bfbab3880b8e59f2e56e9a963fc9e}\label{_fecha_01_nacimiento_01_mejorado_8cpp_abc2bfbab3880b8e59f2e56e9a963fc9e}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!calculoEdad@{calculoEdad}}
+\index{calculoEdad@{calculoEdad}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{calculoEdad()}{calculoEdad()}}
+{\footnotesize\ttfamily void calculo\+Edad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+calculo\+Edad Realiza el calculo de la edad, dependiendo si la fecha de nacimiento es mayor a la actual ó no 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abc2bfbab3880b8e59f2e56e9a963fc9e}{calculoEdad}}()\ \{}
+\DoxyCodeLine{\ \textcolor{keywordflow}{if}\ (\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}{diact}}\ <\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}{dianac}}\ \ )\ \{}
+\DoxyCodeLine{\ \ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}{diact}}\ =\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}{dianac}}\ +\ 30;}
+\DoxyCodeLine{\ \ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}\ =\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}\ -\/\ 1;}
+\DoxyCodeLine{\ \ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ad7677d10f43454ace894e2ee4d8090fc}{dias}}\ =\ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}{diact}}\ -\/\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}{dianac}};}
+\DoxyCodeLine{\ \}\textcolor{keywordflow}{else}\ \{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ad7677d10f43454ace894e2ee4d8090fc}{dias}}\ =\ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}{diact}}\ -\/\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}{dianac}};}
+\DoxyCodeLine{\ \}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}(\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}\ <\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_aacd6444ed3e1526f77a8978a7f0f8b58}{mesnac}}\ )\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}\ =\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}\ +\ 12;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ anioact\ =\ anioact\ -\/\ 1\ ;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a28bd332984c3dfe13a07ccee0c47eb8c}{meses}}\ =\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}\ -\/\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_aacd6444ed3e1526f77a8978a7f0f8b58}{mesnac}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \}\textcolor{keywordflow}{else}\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a28bd332984c3dfe13a07ccee0c47eb8c}{meses}}\ =\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}}\ -\/\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_aacd6444ed3e1526f77a8978a7f0f8b58}{mesnac}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_abe6ed97b0594d2287da0d5c7c7cae436}\label{_fecha_01_nacimiento_01_mejorado_8cpp_abe6ed97b0594d2287da0d5c7c7cae436}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!fechaActual@{fechaActual}}
+\index{fechaActual@{fechaActual}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{fechaActual()}{fechaActual()}}
+{\footnotesize\ttfamily void fecha\+Actual (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+fecha\+Actual Se utiliza para ingresar la fecha actual (día, mes, año) 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abe6ed97b0594d2287da0d5c7c7cae436}{fechaActual}}()\ \{}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ día\ actual"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}{diact}};}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ mes\ actual"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}{mesact}};}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingrea\ año\ actual"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ anioact;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_a2011cb1205400b157966c5bb9ec4f7c9}\label{_fecha_01_nacimiento_01_mejorado_8cpp_a2011cb1205400b157966c5bb9ec4f7c9}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!fechaNacimiento@{fechaNacimiento}}
+\index{fechaNacimiento@{fechaNacimiento}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{fechaNacimiento()}{fechaNacimiento()}}
+{\footnotesize\ttfamily void fecha\+Nacimiento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+fecha\+Nacimiento Se utiliza para ingresar la fecha de nacimiento (día, mes, año) 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a2011cb1205400b157966c5bb9ec4f7c9}{fechaNacimiento}}()\ \{}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ día\ nacimiento"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}{dianac}};}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ mes\ nacimiento"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_aacd6444ed3e1526f77a8978a7f0f8b58}{mesnac}};}
+\DoxyCodeLine{cout\ <<\ \textcolor{stringliteral}{"{}Ingresa\ año\ nacimiento"{}}<<endl;}
+\DoxyCodeLine{cin\ >>\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a59de18af0c7a2c69a9dd25d32d43370d}{anionac}};}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_fecha_01_nacimiento_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!main@{main}}
+\index{main@{main}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+main Ejectuta los métodos realizados en órden 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\ \{}
+\DoxyCodeLine{\mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abe6ed97b0594d2287da0d5c7c7cae436}{fechaActual}}();}
+\DoxyCodeLine{\mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a2011cb1205400b157966c5bb9ec4f7c9}{fechaNacimiento}}();}
+\DoxyCodeLine{\mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abc2bfbab3880b8e59f2e56e9a963fc9e}{calculoEdad}}();}
+\DoxyCodeLine{\mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abc8e18b2721758ff088793ed0e28d0f9}{resultados}}();}
+\DoxyCodeLine{\textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_abc8e18b2721758ff088793ed0e28d0f9}\label{_fecha_01_nacimiento_01_mejorado_8cpp_abc8e18b2721758ff088793ed0e28d0f9}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!resultados@{resultados}}
+\index{resultados@{resultados}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{resultados()}{resultados()}}
+{\footnotesize\ttfamily void resultados (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+resultados Imprime resultados obtenidos 
+
+\begin{DoxyReturn}{Devuelve}
+Años, meses y días vivo 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_abc8e18b2721758ff088793ed0e28d0f9}{resultados}}()\ \{}
+\DoxyCodeLine{\ cout\ <<\ \textcolor{stringliteral}{"{}Tienes"{}}<<endl;}
+\DoxyCodeLine{\ cout\ <<\ \textcolor{stringliteral}{"{}\ Edad:\ "{}}\ <<anioact\ -\/\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a59de18af0c7a2c69a9dd25d32d43370d}{anionac}}\ <<\ endl;}
+\DoxyCodeLine{\ cout\ <<\ \textcolor{stringliteral}{"{}\ Mes:\ "{}}\ <<\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_a28bd332984c3dfe13a07ccee0c47eb8c}{meses}}\ <<\ endl;}
+\DoxyCodeLine{\ cout\ <<\ \textcolor{stringliteral}{"{}\ Dia:\ "{}}\ <<\ \mbox{\hyperlink{_fecha_01_nacimiento_01_mejorado_8cpp_ad7677d10f43454ace894e2ee4d8090fc}{dias}}\ <<\ endl;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Documentación de las variables}
+\mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_a59de18af0c7a2c69a9dd25d32d43370d}\label{_fecha_01_nacimiento_01_mejorado_8cpp_a59de18af0c7a2c69a9dd25d32d43370d}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!anionac@{anionac}}
+\index{anionac@{anionac}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{anionac}{anionac}}
+{\footnotesize\ttfamily int anionac}
+
+
+
+Indica año de nacimiento. 
+
+\mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}\label{_fecha_01_nacimiento_01_mejorado_8cpp_a057b1d9cbfeb1744c0407a0ea44212fb}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!diact@{diact}}
+\index{diact@{diact}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{diact}{diact}}
+{\footnotesize\ttfamily int diact}
+
+
+
+Indica día de fecha actual. 
+
+\mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}\label{_fecha_01_nacimiento_01_mejorado_8cpp_a87dc12bcf87d4e3e9b755e6e712cd7b6}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!dianac@{dianac}}
+\index{dianac@{dianac}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{dianac}{dianac}}
+{\footnotesize\ttfamily int anioact int dianac}
+
+
+
+Indica año de fecha actual. 
+
+Indica dia de nacimiento \mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_ad7677d10f43454ace894e2ee4d8090fc}\label{_fecha_01_nacimiento_01_mejorado_8cpp_ad7677d10f43454ace894e2ee4d8090fc}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!dias@{dias}}
+\index{dias@{dias}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{dias}{dias}}
+{\footnotesize\ttfamily int dias}
+
+
+
+Indica dias que lleva vivo el usuario. 
+
+\mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}\label{_fecha_01_nacimiento_01_mejorado_8cpp_ac3c45aa079607afaa49b1443d3f3c7e0}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!mesact@{mesact}}
+\index{mesact@{mesact}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{mesact}{mesact}}
+{\footnotesize\ttfamily int mesact}
+
+
+
+Indica mes de fecha actual. 
+
+\mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_a28bd332984c3dfe13a07ccee0c47eb8c}\label{_fecha_01_nacimiento_01_mejorado_8cpp_a28bd332984c3dfe13a07ccee0c47eb8c}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!meses@{meses}}
+\index{meses@{meses}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{meses}{meses}}
+{\footnotesize\ttfamily int meses}
+
+
+
+Indica meses que lleva vivo el usuario. 
+
+\mbox{\Hypertarget{_fecha_01_nacimiento_01_mejorado_8cpp_aacd6444ed3e1526f77a8978a7f0f8b58}\label{_fecha_01_nacimiento_01_mejorado_8cpp_aacd6444ed3e1526f77a8978a7f0f8b58}} 
+\index{Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}!mesnac@{mesnac}}
+\index{mesnac@{mesnac}!Fecha Nacimiento Mejorado.cpp@{Fecha Nacimiento Mejorado.cpp}}
+\doxysubsubsection{\texorpdfstring{mesnac}{mesnac}}
+{\footnotesize\ttfamily int mesnac}
+
+
+
+Indica mes de nacimiento. 
+
